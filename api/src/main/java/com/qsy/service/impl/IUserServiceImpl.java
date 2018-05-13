@@ -24,7 +24,7 @@ public class IUserServiceImpl implements IUserService {
 
     @Override
     public ServerResponse getProductList() {
-        //不好吃
+        //不好吃的 真的吗
         return ServerResponse.createBySuccess(productMapper.selectByPrimaryKey("1"));
     }
 }
